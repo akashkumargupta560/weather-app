@@ -1,0 +1,25 @@
+.weather-page{
+    width: fit-content;
+    margin-left: 40%;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background: lavender;
+    border: 1px solid gray;
+    border-radius: 10px;
+    .header h2{
+        font-size: 32px;
+        padding: 10px 10px;
+        color: #934545;
+        text-align: center;
+    }
+    .example-card {
+        max-width: 400px;
+    }
+    .card{
+        .card-body{
+            .select-button{
+                width: max-content;
+            }
+        }
+    }
+}
